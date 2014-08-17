@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherForecast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="change_city">Change city</string>
+    <string name="refresh">Refresh</string>
+    <string name="temperature">Temperature:</string>
+    <string name="wind">Wind:</string>
+    <string name="kmph">Kmph</string>
+    <string name="mph">Mph</string>
+    
+    <!-- Error messages -->
+    <string name="error_no_internet">No internet coneection</string>
+    <string name="error_network">Network error</string>
+    <string name="error_can_not_delete_last_entry">Can not delete last city in the list.</string>
+    
+    <!-- Choose city dialog -->
+	<string name="choose_city_dialog_title">Choose city</string>
+	<string name="choose_city_dialog_cancel">Cancel</string>
+	<string name="choose_city_dialog_add">Add city</string>
+	
+	<!-- Add city activity -->
+	<string name="add_city_activity_title">Add city</string>
+	<string name="add_city_autocomplete_hint">Start typing city name</string>
+</resources>

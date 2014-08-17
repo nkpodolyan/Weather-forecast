@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nkpodolyan.weatherforecast.MainActivity" >
+
+    <ListView
+        android:id="@+id/forecast_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000" />
+    
+    <ProgressBar 
+        android:id="@+id/forecast_progress"
+        android:layout_width="@dimen/activity_main_progress_bar_size"
+        android:layout_height="@dimen/activity_main_progress_bar_size"
+        android:layout_centerInParent="true"/>
+    
+    <TextView 
+        android:id="@+id/error_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
